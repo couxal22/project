@@ -1,0 +1,171 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    padding: 0 !important;
+}
+navbar-brand img
+{
+    height: 20px;
+    padding-left: 20px;
+}
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a
+{
+    color: aqua !important;
+    float: right;
+    text-align: left;
+}
+.navbar-toggler
+{
+    outline: none !important;
+}
+#banner
+{
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+    color: rgb(108, 230, 8);
+    padding-top: 5%;
+}
+.promo-title
+{
+font-size: 20px;
+font-weight: 600;
+margin-top: 100px;
+}
+<!---------service-------->
+<section id="services">
+<div class="conatiner">
+<div class="row">
+<div class="col-md-4">
+</div>
+</div>
+</div>
+/*------PRICING----*/
+#AREA OF SPECIALIZATION
+{
+    padding: 80px 0;
+}
+.service-img
+{
+    width: 400px;
+    margin-top: 20px;
+}
+.services
+{
+    padding: 20px;
+}
+.services h4
+{
+padding: 5px;
+margin-top: 25px;
+text-transform: uppercase;
+
+}
+.title::before
+{
+    content: '';
+    background-color: burlywood;
+    height: 5px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(75px);
+
+}
+.title::after
+{
+    content: '';
+    background-color: burlywood;
+    height: 10px;
+    width: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    transform: translateY(75px);
+
+}
+#.services btn-primary
+{
+    box-shadow: darkblue;
+    padding: 8px 25px;
+    border: darkred;
+    border-radius: 20px;
+    background-image: linear-gradient(to right,#a517ba,#5f1782);
+}
+/*--ABOUT--*/
+#about-us
+{
+background:#f8f9fa
+padding-bottom:50px;
+padding-top:50px;
+}
+#about-us ul li
+{
+    margin-left: auto;
+}
+/*--FOUNDER--*/
+#founder
+{
+    margin:100px 0;
+    
+
+}
+.founder
+{
+    border-left: 4px solid #7b1798;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+.founder img
+{
+height: 60px;
+width: 60px;
+border-radius: 50%;
+margin: 0 10px;
+}
+.social-icons img
+{
+width: 60px;
+transition: 0.5s;
+}
+.social-icons a:hover img
+{
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
